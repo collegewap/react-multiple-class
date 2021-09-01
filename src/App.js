@@ -1,5 +1,5 @@
 function App() {
-  return <div className="box error">This is a message</div>;
+  return <div className="box success">This is a success message</div>;
 }
 
 export default App;
