@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { useState } from "react";
 
 const ChildComp = (props) => {
@@ -13,6 +14,9 @@ function App() {
         This is a warning message
       </div>
       <ChildComp status="error" />
+      <div className={classNames("box", { warning: isWarning })}>
+        This is a warning message
+      </div>
     </>
   );
 }
