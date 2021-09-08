@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="box success">This is a success message</div>
-      <div className={`box ${isWarning && "warning"}`}>
+      <div className={`box ${isWarning === true && "warning"}`}>
         This is a success message
       </div>
     </>
